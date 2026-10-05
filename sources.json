@@ -1,0 +1,126 @@
+{
+  "college": [
+    {
+      "id": "am-colleges",
+      "label": "Alpes-Maritimes",
+      "type": "static",
+      "url": "data/alpes-maritimes-colleges.geojson",
+      "fields": { "secteur": "nom_college", "etablissement": "nom_college", "extra": "code_secteur" }
+    },
+    {
+      "id": "paris-colleges",
+      "label": "Paris",
+      "type": "live",
+      "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/secteurs-scolaires-colleges/exports/geojson",
+      "fields": { "secteur": "etiquette", "etablissement": "lib_etab_1" }
+    },
+    {
+      "id": "isere-colleges",
+      "label": "Isère",
+      "type": "live",
+      "url": "https://opendata.isere.fr/api/explore/v2.1/catalog/datasets/aires-de-rattachements-des-colleges-en-isere/exports/geojson",
+      "fields": { "secteur": "nom", "etablissement": "nom" }
+    },
+    {
+      "id": "haute-garonne-colleges",
+      "label": "Haute-Garonne",
+      "type": "live",
+      "url": "https://data.haute-garonne.fr/api/explore/v2.1/catalog/datasets/sectorisation-colleges-classes-6eme/exports/geojson",
+      "fields": { "secteur": "coll_nom", "etablissement": "college" }
+    },
+    {
+      "id": "aude-colleges",
+      "label": "Aude",
+      "type": "live",
+      "url": "https://opendata.aude.fr/api/explore/v2.1/catalog/datasets/cd11_secteurs_colleges/exports/geojson",
+      "fields": { "secteur": "nom_secteur", "etablissement": "nom_college" }
+    },
+    {
+      "id": "loire-atlantique-colleges",
+      "label": "Loire-Atlantique",
+      "type": "live",
+      "url": "https://data.loire-atlantique.fr/api/explore/v2.1/catalog/datasets/224400028_carte-scolaire-des-colleges-publics-de-loire-atlantique/exports/geojson",
+      "fields": { "secteur": "college", "etablissement": "college" }
+    },
+    {
+      "id": "maine-et-loire-colleges",
+      "label": "Maine-et-Loire",
+      "type": "live",
+      "url": "https://data.maine-et-loire.fr/api/explore/v2.1/catalog/datasets/224900019_sectorisation-colleges-publics-maine-et-loire/exports/geojson",
+      "fields": { "secteur": "sc_college_nom", "etablissement": "sc_college_nom" }
+    },
+    {
+      "id": "hautes-pyrenees-colleges",
+      "label": "Hautes-Pyrénées",
+      "type": "live",
+      "url": "https://opendata.ha-py.fr/api/explore/v2.1/catalog/datasets/departementdeshautespyrenees_sectorisation_colleges/exports/geojson",
+      "fields": { "secteur": "coll_nom", "etablissement": "coll_nom" }
+    },
+    {
+      "id": "hauts-de-seine-colleges",
+      "label": "Hauts-de-Seine",
+      "type": "live",
+      "url": "https://opendata.hauts-de-seine.fr/api/explore/v2.1/catalog/datasets/fr-229200506-carte-scolaire-colleges-publics-secteurs/exports/geojson",
+      "fields": { "secteur": "sectorisation", "etablissement": "code_coll" }
+    }
+  ],
+  "ecole": [
+    {
+      "id": "paris-maternelles",
+      "label": "Paris (maternelles)",
+      "type": "live",
+      "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/secteurs-scolaires-maternelles/exports/geojson",
+      "fields": { "secteur": "etiquette", "etablissement": "lib_etab_1" }
+    },
+    {
+      "id": "paris-elementaires",
+      "label": "Paris (élémentaires)",
+      "type": "live",
+      "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/secteurs-scolaires-ecoles-elementaires/exports/geojson",
+      "fields": { "secteur": "etiquette", "etablissement": "lib_etab_1" }
+    },
+    {
+      "id": "bordeaux-ecoles",
+      "label": "Bordeaux Métropole",
+      "type": "live",
+      "url": "https://datahub.bordeaux-metropole.fr/api/explore/v2.1/catalog/datasets/se_ecole_s/exports/geojson",
+      "fields": { "secteur": "nom", "etablissement": "nom" }
+    },
+    {
+      "id": "clermont-ecoles",
+      "label": "Clermont-Ferrand",
+      "type": "live",
+      "url": "https://opendata.clermontmetropole.eu/api/explore/v2.1/catalog/datasets/secteurs-scolaires-des-ecoles-vcf/exports/geojson",
+      "fields": { "secteur": "nom", "etablissement": "nom" }
+    },
+    {
+      "id": "orleans-maternelles",
+      "label": "Orléans (maternelles)",
+      "type": "live",
+      "url": "https://data.orleans-metropole.fr/api/explore/v2.1/catalog/datasets/administratifscol_sect_mater/exports/geojson",
+      "fields": { "secteur": "si_designa", "etablissement": "si_designa" }
+    },
+    {
+      "id": "orleans-elementaires",
+      "label": "Orléans (élémentaires)",
+      "type": "live",
+      "url": "https://data.orleans-metropole.fr/api/explore/v2.1/catalog/datasets/administratifscol_sect_elem/exports/geojson",
+      "fields": { "secteur": "si_designa", "etablissement": "si_designa" }
+    },
+    {
+      "id": "saint-nazaire-ecoles",
+      "label": "Saint-Nazaire",
+      "type": "live",
+      "url": "https://data.agglo-carene.fr/api/explore/v2.1/catalog/datasets/214401846_educ_perimetre_ecole_prox_184/exports/geojson",
+      "fields": { "secteur": "secteur", "etablissement": "nom" }
+    },
+    {
+      "id": "issy-ecoles",
+      "label": "Issy-les-Moulineaux",
+      "type": "live",
+      "url": "https://data.issy.com/api/explore/v2.1/catalog/datasets/ecoles-maternelles-secteurs-scolaires-a-issy-les-moulineaux0/exports/geojson",
+      "fields": { "secteur": "secteurs_scolaires", "etablissement": "nom" }
+    }
+  ],
+  "lycee": []
+}
