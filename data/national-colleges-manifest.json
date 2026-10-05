@@ -1,0 +1,605 @@
+{
+  "generated": [
+    {
+      "dept": "001",
+      "folderPrefix": "01",
+      "folderName": "01-ain",
+      "fileId": "communes-colleges-01",
+      "count": 369
+    },
+    {
+      "dept": "002",
+      "folderPrefix": "02",
+      "folderName": "02-aisne",
+      "fileId": "communes-colleges-02",
+      "count": 794
+    },
+    {
+      "dept": "003",
+      "folderPrefix": "03",
+      "folderName": "03-allier",
+      "fileId": "communes-colleges-03",
+      "count": 302
+    },
+    {
+      "dept": "004",
+      "folderPrefix": "04",
+      "folderName": "04-alpes-de-haute-provence",
+      "fileId": "communes-colleges-04",
+      "count": 194
+    },
+    {
+      "dept": "005",
+      "folderPrefix": "05",
+      "folderName": "05-hautes-alpes",
+      "fileId": "communes-colleges-05",
+      "count": 157
+    },
+    {
+      "dept": "007",
+      "folderPrefix": "07",
+      "folderName": "07-ardeche",
+      "fileId": "communes-colleges-07",
+      "count": 314
+    },
+    {
+      "dept": "008",
+      "folderPrefix": "08",
+      "folderName": "08-ardennes",
+      "fileId": "communes-colleges-08",
+      "count": 442
+    },
+    {
+      "dept": "009",
+      "folderPrefix": "09",
+      "folderName": "09-ariege",
+      "fileId": "communes-colleges-09",
+      "count": 321
+    },
+    {
+      "dept": "010",
+      "folderPrefix": "10",
+      "folderName": "10-aube",
+      "fileId": "communes-colleges-10",
+      "count": 426
+    },
+    {
+      "dept": "012",
+      "folderPrefix": "12",
+      "folderName": "12-aveyron",
+      "fileId": "communes-colleges-12",
+      "count": 260
+    },
+    {
+      "dept": "013",
+      "folderPrefix": "13",
+      "folderName": "13-bouches-du-rhone",
+      "fileId": "communes-colleges-13",
+      "count": 101
+    },
+    {
+      "dept": "014",
+      "folderPrefix": "14",
+      "folderName": "14-calvados",
+      "fileId": "communes-colleges-14",
+      "count": 509
+    },
+    {
+      "dept": "015",
+      "folderPrefix": "15",
+      "folderName": "15-cantal",
+      "fileId": "communes-colleges-15",
+      "count": 235
+    },
+    {
+      "dept": "016",
+      "folderPrefix": "16",
+      "folderName": "16-charente",
+      "fileId": "communes-colleges-16",
+      "count": 365
+    },
+    {
+      "dept": "018",
+      "folderPrefix": "18",
+      "folderName": "18-cher",
+      "fileId": "communes-colleges-18",
+      "count": 278
+    },
+    {
+      "dept": "019",
+      "folderPrefix": "19",
+      "folderName": "19-correze",
+      "fileId": "communes-colleges-19",
+      "count": 269
+    },
+    {
+      "dept": "021",
+      "folderPrefix": "21",
+      "folderName": "21-cote-d-or",
+      "fileId": "communes-colleges-21",
+      "count": 689
+    },
+    {
+      "dept": "023",
+      "folderPrefix": "23",
+      "folderName": "23-creuse",
+      "fileId": "communes-colleges-23",
+      "count": 241
+    },
+    {
+      "dept": "024",
+      "folderPrefix": "24",
+      "folderName": "24-dordogne",
+      "fileId": "communes-colleges-24",
+      "count": 493
+    },
+    {
+      "dept": "025",
+      "folderPrefix": "25",
+      "folderName": "25-doubs",
+      "fileId": "communes-colleges-25",
+      "count": 553
+    },
+    {
+      "dept": "026",
+      "folderPrefix": "26",
+      "folderName": "26-drome",
+      "fileId": "communes-colleges-26",
+      "count": 336
+    },
+    {
+      "dept": "027",
+      "folderPrefix": "27",
+      "folderName": "27-eure",
+      "fileId": "communes-colleges-27",
+      "count": 561
+    },
+    {
+      "dept": "028",
+      "folderPrefix": "28",
+      "folderName": "28-eure-et-loir",
+      "fileId": "communes-colleges-28",
+      "count": 346
+    },
+    {
+      "dept": "029",
+      "folderPrefix": "29",
+      "folderName": "29-finistere",
+      "fileId": "communes-colleges-29",
+      "count": 237
+    },
+    {
+      "dept": "030",
+      "folderPrefix": "30",
+      "folderName": "30-gard",
+      "fileId": "communes-colleges-30",
+      "count": 343
+    },
+    {
+      "dept": "032",
+      "folderPrefix": "32",
+      "folderName": "32-gers",
+      "fileId": "communes-colleges-32",
+      "count": 435
+    },
+    {
+      "dept": "033",
+      "folderPrefix": "33",
+      "folderName": "33-gironde",
+      "fileId": "communes-colleges-33",
+      "count": 513
+    },
+    {
+      "dept": "034",
+      "folderPrefix": "34",
+      "folderName": "34-herault",
+      "fileId": "communes-colleges-34",
+      "count": 332
+    },
+    {
+      "dept": "035",
+      "folderPrefix": "35",
+      "folderName": "35-ille-et-vilaine",
+      "fileId": "communes-colleges-35",
+      "count": 322
+    },
+    {
+      "dept": "036",
+      "folderPrefix": "36",
+      "folderName": "36-indre",
+      "fileId": "communes-colleges-36",
+      "count": 239
+    },
+    {
+      "dept": "037",
+      "folderPrefix": "37",
+      "folderName": "37-indre-et-loire",
+      "fileId": "communes-colleges-37",
+      "count": 265
+    },
+    {
+      "dept": "039",
+      "folderPrefix": "39",
+      "folderName": "39-jura",
+      "fileId": "communes-colleges-39",
+      "count": 489
+    },
+    {
+      "dept": "040",
+      "folderPrefix": "40",
+      "folderName": "40-landes",
+      "fileId": "communes-colleges-40",
+      "count": 313
+    },
+    {
+      "dept": "041",
+      "folderPrefix": "41",
+      "folderName": "41-loir-et-cher",
+      "fileId": "communes-colleges-41",
+      "count": 261
+    },
+    {
+      "dept": "042",
+      "folderPrefix": "42",
+      "folderName": "42-loire",
+      "fileId": "communes-colleges-42",
+      "count": 307
+    },
+    {
+      "dept": "043",
+      "folderPrefix": "43",
+      "folderName": "43-haute-loire",
+      "fileId": "communes-colleges-43",
+      "count": 227
+    },
+    {
+      "dept": "045",
+      "folderPrefix": "45",
+      "folderName": "45-loiret",
+      "fileId": "communes-colleges-45",
+      "count": 309
+    },
+    {
+      "dept": "046",
+      "folderPrefix": "46",
+      "folderName": "46-lot",
+      "fileId": "communes-colleges-46",
+      "count": 319
+    },
+    {
+      "dept": "047",
+      "folderPrefix": "47",
+      "folderName": "47-lot-et-garonne",
+      "fileId": "communes-colleges-47",
+      "count": 314
+    },
+    {
+      "dept": "048",
+      "folderPrefix": "48",
+      "folderName": "48-lozere",
+      "fileId": "communes-colleges-48",
+      "count": 8
+    },
+    {
+      "dept": "050",
+      "folderPrefix": "50",
+      "folderName": "50-manche",
+      "fileId": "communes-colleges-50",
+      "count": 436
+    },
+    {
+      "dept": "051",
+      "folderPrefix": "51",
+      "folderName": "51-marne",
+      "fileId": "communes-colleges-51",
+      "count": 604
+    },
+    {
+      "dept": "052",
+      "folderPrefix": "52",
+      "folderName": "52-haute-marne",
+      "fileId": "communes-colleges-52",
+      "count": 422
+    },
+    {
+      "dept": "053",
+      "folderPrefix": "53",
+      "folderName": "53-mayenne",
+      "fileId": "communes-colleges-53",
+      "count": 238
+    },
+    {
+      "dept": "054",
+      "folderPrefix": "54",
+      "folderName": "54-meurthe-et-moselle",
+      "fileId": "communes-colleges-54",
+      "count": 561
+    },
+    {
+      "dept": "055",
+      "folderPrefix": "55",
+      "folderName": "55-meuse",
+      "fileId": "communes-colleges-55",
+      "count": 495
+    },
+    {
+      "dept": "056",
+      "folderPrefix": "56",
+      "folderName": "56-morbihan",
+      "fileId": "communes-colleges-56",
+      "count": 202
+    },
+    {
+      "dept": "057",
+      "folderPrefix": "57",
+      "folderName": "57-moselle",
+      "fileId": "communes-colleges-57",
+      "count": 713
+    },
+    {
+      "dept": "058",
+      "folderPrefix": "58",
+      "folderName": "58-nievre",
+      "fileId": "communes-colleges-58",
+      "count": 307
+    },
+    {
+      "dept": "059",
+      "folderPrefix": "59",
+      "folderName": "59-nord",
+      "fileId": "communes-colleges-59",
+      "count": 599
+    },
+    {
+      "dept": "060",
+      "folderPrefix": "60",
+      "folderName": "60-oise",
+      "fileId": "communes-colleges-60",
+      "count": 625
+    },
+    {
+      "dept": "061",
+      "folderPrefix": "61",
+      "folderName": "61-orne",
+      "fileId": "communes-colleges-61",
+      "count": 350
+    },
+    {
+      "dept": "062",
+      "folderPrefix": "62",
+      "folderName": "62-pas-de-calais",
+      "fileId": "communes-colleges-62",
+      "count": 864
+    },
+    {
+      "dept": "063",
+      "folderPrefix": "63",
+      "folderName": "63-puy-de-dome",
+      "fileId": "communes-colleges-63",
+      "count": 451
+    },
+    {
+      "dept": "064",
+      "folderPrefix": "64",
+      "folderName": "64-pyrenees-atlantiques",
+      "fileId": "communes-colleges-64",
+      "count": 534
+    },
+    {
+      "dept": "066",
+      "folderPrefix": "66",
+      "folderName": "66-pyrenees-orientales",
+      "fileId": "communes-colleges-66",
+      "count": 225
+    },
+    {
+      "dept": "067",
+      "folderPrefix": "67",
+      "folderName": "67-bas-rhin",
+      "fileId": "communes-colleges-67",
+      "count": 495
+    },
+    {
+      "dept": "068",
+      "folderPrefix": "68",
+      "folderName": "68-haut-rhin",
+      "fileId": "communes-colleges-68",
+      "count": 352
+    },
+    {
+      "dept": "069",
+      "folderPrefix": "69",
+      "folderName": "69-rhone",
+      "fileId": "communes-colleges-69",
+      "count": 225
+    },
+    {
+      "dept": "070",
+      "folderPrefix": "70",
+      "folderName": "70-haute-saone",
+      "fileId": "communes-colleges-70",
+      "count": 534
+    },
+    {
+      "dept": "071",
+      "folderPrefix": "71",
+      "folderName": "71-saone-et-loire",
+      "fileId": "communes-colleges-71",
+      "count": 549
+    },
+    {
+      "dept": "072",
+      "folderPrefix": "72",
+      "folderName": "72-sarthe",
+      "fileId": "communes-colleges-72",
+      "count": 331
+    },
+    {
+      "dept": "073",
+      "folderPrefix": "73",
+      "folderName": "73-savoie",
+      "fileId": "communes-colleges-73",
+      "count": 278
+    },
+    {
+      "dept": "074",
+      "folderPrefix": "74",
+      "folderName": "74-haute-savoie",
+      "fileId": "communes-colleges-74",
+      "count": 269
+    },
+    {
+      "dept": "076",
+      "folderPrefix": "76",
+      "folderName": "76-seine-maritime",
+      "fileId": "communes-colleges-76",
+      "count": 686
+    },
+    {
+      "dept": "077",
+      "folderPrefix": "77",
+      "folderName": "77-seine-et-marne",
+      "fileId": "communes-colleges-77",
+      "count": 472
+    },
+    {
+      "dept": "078",
+      "folderPrefix": "78",
+      "folderName": "78-yvelines",
+      "fileId": "communes-colleges-78",
+      "count": 224
+    },
+    {
+      "dept": "079",
+      "folderPrefix": "79",
+      "folderName": "79-deux-sevres",
+      "fileId": "communes-colleges-79",
+      "count": 247
+    },
+    {
+      "dept": "080",
+      "folderPrefix": "80",
+      "folderName": "80-somme",
+      "fileId": "communes-colleges-80",
+      "count": 774
+    },
+    {
+      "dept": "081",
+      "folderPrefix": "81",
+      "folderName": "81-tarn",
+      "fileId": "communes-colleges-81",
+      "count": 303
+    },
+    {
+      "dept": "082",
+      "folderPrefix": "82",
+      "folderName": "82-tarn-et-garonne",
+      "fileId": "communes-colleges-82",
+      "count": 193
+    },
+    {
+      "dept": "083",
+      "folderPrefix": "83",
+      "folderName": "83-var",
+      "fileId": "communes-colleges-83",
+      "count": 136
+    },
+    {
+      "dept": "084",
+      "folderPrefix": "84",
+      "folderName": "84-vaucluse",
+      "fileId": "communes-colleges-84",
+      "count": 142
+    },
+    {
+      "dept": "085",
+      "folderPrefix": "85",
+      "folderName": "85-vendee",
+      "fileId": "communes-colleges-85",
+      "count": 250
+    },
+    {
+      "dept": "086",
+      "folderPrefix": "86",
+      "folderName": "86-vienne",
+      "fileId": "communes-colleges-86",
+      "count": 265
+    },
+    {
+      "dept": "087",
+      "folderPrefix": "87",
+      "folderName": "87-haute-vienne",
+      "fileId": "communes-colleges-87",
+      "count": 188
+    },
+    {
+      "dept": "088",
+      "folderPrefix": "88",
+      "folderName": "88-vosges",
+      "fileId": "communes-colleges-88",
+      "count": 501
+    },
+    {
+      "dept": "089",
+      "folderPrefix": "89",
+      "folderName": "89-yonne",
+      "fileId": "communes-colleges-89",
+      "count": 421
+    },
+    {
+      "dept": "090",
+      "folderPrefix": "90",
+      "folderName": "90-territoire-de-belfort",
+      "fileId": "communes-colleges-90",
+      "count": 98
+    },
+    {
+      "dept": "091",
+      "folderPrefix": "91",
+      "folderName": "91-essonne",
+      "fileId": "communes-colleges-91",
+      "count": 161
+    },
+    {
+      "dept": "094",
+      "folderPrefix": "94",
+      "folderName": "94-val-de-marne",
+      "fileId": "communes-colleges-94",
+      "count": 12
+    },
+    {
+      "dept": "095",
+      "folderPrefix": "95",
+      "folderName": "95-val-d-oise",
+      "fileId": "communes-colleges-95",
+      "count": 151
+    },
+    {
+      "dept": "720",
+      "folderPrefix": "2B",
+      "folderName": "2B-haute-corse",
+      "fileId": "communes-colleges-2b",
+      "count": 233
+    },
+    {
+      "dept": "973",
+      "folderPrefix": "973",
+      "folderName": "973-guyane",
+      "fileId": "communes-colleges-973",
+      "count": 15
+    },
+    {
+      "dept": "974",
+      "folderPrefix": "974",
+      "folderName": "974-la-reunion",
+      "fileId": "communes-colleges-974",
+      "count": 9
+    }
+  ],
+  "failures": [
+    {
+      "dept": "984",
+      "error": "Pas de dossier connu pour le préfixe 984"
+    }
+  ]
+}

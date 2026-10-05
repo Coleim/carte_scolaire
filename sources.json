@@ -5,121 +5,1593 @@
       "label": "Alpes-Maritimes",
       "type": "static",
       "url": "data/alpes-maritimes-colleges.geojson",
-      "fields": { "secteur": "nom_college", "etablissement": "nom_college", "extra": "code_secteur" }
-    },
-    {
-      "id": "paris-colleges",
-      "label": "Paris",
-      "type": "live",
-      "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/secteurs-scolaires-colleges/exports/geojson",
-      "fields": { "secteur": "etiquette", "etablissement": "lib_etab_1" }
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college",
+        "extra": "code_secteur"
+      }
     },
     {
       "id": "isere-colleges",
       "label": "Isère",
-      "type": "live",
-      "url": "https://opendata.isere.fr/api/explore/v2.1/catalog/datasets/aires-de-rattachements-des-colleges-en-isere/exports/geojson",
-      "fields": { "secteur": "nom", "etablissement": "nom" }
+      "type": "static",
+      "url": "data/isere-colleges.geojson",
+      "fields": {
+        "secteur": "nom",
+        "etablissement": "nom"
+      }
     },
     {
       "id": "haute-garonne-colleges",
       "label": "Haute-Garonne",
-      "type": "live",
-      "url": "https://data.haute-garonne.fr/api/explore/v2.1/catalog/datasets/sectorisation-colleges-classes-6eme/exports/geojson",
-      "fields": { "secteur": "coll_nom", "etablissement": "college" }
+      "type": "static",
+      "url": "data/haute-garonne-colleges.geojson",
+      "fields": {
+        "secteur": "coll_nom",
+        "etablissement": "college"
+      }
     },
     {
       "id": "aude-colleges",
       "label": "Aude",
-      "type": "live",
-      "url": "https://opendata.aude.fr/api/explore/v2.1/catalog/datasets/cd11_secteurs_colleges/exports/geojson",
-      "fields": { "secteur": "nom_secteur", "etablissement": "nom_college" }
+      "type": "static",
+      "url": "data/aude-colleges.geojson",
+      "fields": {
+        "secteur": "nom_secteur",
+        "etablissement": "nom_college"
+      }
     },
     {
       "id": "loire-atlantique-colleges",
       "label": "Loire-Atlantique",
-      "type": "live",
-      "url": "https://data.loire-atlantique.fr/api/explore/v2.1/catalog/datasets/224400028_carte-scolaire-des-colleges-publics-de-loire-atlantique/exports/geojson",
-      "fields": { "secteur": "college", "etablissement": "college" }
+      "type": "static",
+      "url": "data/loire-atlantique-colleges.geojson",
+      "fields": {
+        "secteur": "college",
+        "etablissement": "college"
+      }
     },
     {
       "id": "maine-et-loire-colleges",
       "label": "Maine-et-Loire",
-      "type": "live",
-      "url": "https://data.maine-et-loire.fr/api/explore/v2.1/catalog/datasets/224900019_sectorisation-colleges-publics-maine-et-loire/exports/geojson",
-      "fields": { "secteur": "sc_college_nom", "etablissement": "sc_college_nom" }
+      "type": "static",
+      "url": "data/maine-et-loire-colleges.geojson",
+      "fields": {
+        "secteur": "sc_college_nom",
+        "etablissement": "sc_college_nom"
+      }
     },
     {
       "id": "hautes-pyrenees-colleges",
       "label": "Hautes-Pyrénées",
-      "type": "live",
-      "url": "https://opendata.ha-py.fr/api/explore/v2.1/catalog/datasets/departementdeshautespyrenees_sectorisation_colleges/exports/geojson",
-      "fields": { "secteur": "coll_nom", "etablissement": "coll_nom" }
+      "type": "static",
+      "url": "data/hautes-pyrenees-colleges.geojson",
+      "fields": {
+        "secteur": "coll_nom",
+        "etablissement": "coll_nom"
+      }
     },
     {
       "id": "hauts-de-seine-colleges",
       "label": "Hauts-de-Seine",
-      "type": "live",
-      "url": "https://opendata.hauts-de-seine.fr/api/explore/v2.1/catalog/datasets/fr-229200506-carte-scolaire-colleges-publics-secteurs/exports/geojson",
-      "fields": { "secteur": "sectorisation", "etablissement": "code_coll" }
+      "type": "static",
+      "url": "data/hauts-de-seine-colleges.geojson",
+      "fields": {
+        "secteur": "sectorisation",
+        "etablissement": "code_coll"
+      }
+    },
+    {
+      "id": "paris-colleges-75001",
+      "label": "Paris 1er arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75001.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75002",
+      "label": "Paris 2e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75002.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75003",
+      "label": "Paris 3e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75003.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75004",
+      "label": "Paris 4e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75004.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75005",
+      "label": "Paris 5e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75005.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75006",
+      "label": "Paris 6e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75006.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75007",
+      "label": "Paris 7e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75007.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75008",
+      "label": "Paris 8e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75008.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75009",
+      "label": "Paris 9e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75009.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75010",
+      "label": "Paris 10e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75010.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75011",
+      "label": "Paris 11e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75011.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75012",
+      "label": "Paris 12e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75012.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75013",
+      "label": "Paris 13e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75013.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75014",
+      "label": "Paris 14e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75014.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75015",
+      "label": "Paris 15e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75015.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75016",
+      "label": "Paris 16e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75016.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75017",
+      "label": "Paris 17e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75017.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75018",
+      "label": "Paris 18e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75018.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75019",
+      "label": "Paris 19e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75019.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-colleges-75020",
+      "label": "Paris 20e arrondissement",
+      "type": "static",
+      "url": "data/paris-colleges-75020.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "communes-colleges-01",
+      "label": "Ain (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-01.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-02",
+      "label": "Aisne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-02.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-03",
+      "label": "Allier (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-03.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-04",
+      "label": "Alpes-de-Haute-Provence (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-04.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-05",
+      "label": "Hautes-Alpes (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-05.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-07",
+      "label": "Ardèche (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-07.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-08",
+      "label": "Ardennes (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-08.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-09",
+      "label": "Ariège (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-09.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-10",
+      "label": "Aube (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-10.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-12",
+      "label": "Aveyron (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-12.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-13",
+      "label": "Bouches-du-Rhône (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-13.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-14",
+      "label": "Calvados (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-14.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-15",
+      "label": "Cantal (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-15.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-16",
+      "label": "Charente (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-16.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-18",
+      "label": "Cher (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-18.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-19",
+      "label": "Corrèze (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-19.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-21",
+      "label": "Côte-d'Or (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-21.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-23",
+      "label": "Creuse (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-23.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-24",
+      "label": "Dordogne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-24.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-25",
+      "label": "Doubs (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-25.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-26",
+      "label": "Drôme (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-26.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-27",
+      "label": "Eure (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-27.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-28",
+      "label": "Eure-et-Loir (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-28.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-29",
+      "label": "Finistère (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-29.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-30",
+      "label": "Gard (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-30.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-32",
+      "label": "Gers (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-32.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-33",
+      "label": "Gironde (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-33.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-34",
+      "label": "Hérault (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-34.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-35",
+      "label": "Ille-et-Vilaine (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-35.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-36",
+      "label": "Indre (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-36.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-37",
+      "label": "Indre-et-Loire (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-37.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-39",
+      "label": "Jura (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-39.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-40",
+      "label": "Landes (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-40.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-41",
+      "label": "Loir-et-Cher (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-41.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-42",
+      "label": "Loire (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-42.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-43",
+      "label": "Haute-Loire (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-43.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-45",
+      "label": "Loiret (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-45.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-46",
+      "label": "Lot (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-46.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-47",
+      "label": "Lot-et-Garonne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-47.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-48",
+      "label": "Lozère (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-48.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-50",
+      "label": "Manche (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-50.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-51",
+      "label": "Marne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-51.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-52",
+      "label": "Haute-Marne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-52.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-53",
+      "label": "Mayenne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-53.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-54",
+      "label": "Meurthe-et-Moselle (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-54.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-55",
+      "label": "Meuse (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-55.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-56",
+      "label": "Morbihan (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-56.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-57",
+      "label": "Moselle (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-57.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-58",
+      "label": "Nièvre (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-58.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-59",
+      "label": "Nord (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-59.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-60",
+      "label": "Oise (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-60.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-61",
+      "label": "Orne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-61.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-62",
+      "label": "Pas-de-Calais (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-62.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-63",
+      "label": "Puy-de-Dôme (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-63.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-64",
+      "label": "Pyrénées-Atlantiques (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-64.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-66",
+      "label": "Pyrénées-Orientales (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-66.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-67",
+      "label": "Bas-Rhin (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-67.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-68",
+      "label": "Haut-Rhin (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-68.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-69",
+      "label": "Rhône (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-69.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-70",
+      "label": "Haute-Saône (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-70.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-71",
+      "label": "Saône-et-Loire (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-71.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-72",
+      "label": "Sarthe (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-72.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-73",
+      "label": "Savoie (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-73.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-74",
+      "label": "Haute-Savoie (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-74.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-76",
+      "label": "Seine-Maritime (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-76.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-77",
+      "label": "Seine-et-Marne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-77.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-78",
+      "label": "Yvelines (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-78.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-79",
+      "label": "Deux-Sèvres (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-79.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-80",
+      "label": "Somme (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-80.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-81",
+      "label": "Tarn (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-81.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-82",
+      "label": "Tarn-et-Garonne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-82.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-83",
+      "label": "Var (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-83.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-84",
+      "label": "Vaucluse (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-84.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-85",
+      "label": "Vendée (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-85.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-86",
+      "label": "Vienne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-86.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-87",
+      "label": "Haute-Vienne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-87.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-88",
+      "label": "Vosges (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-88.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-89",
+      "label": "Yonne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-89.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-90",
+      "label": "Territoire de Belfort (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-90.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-91",
+      "label": "Essonne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-91.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-94",
+      "label": "Val-de-Marne (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-94.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-95",
+      "label": "Val-d'Oise (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-95.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-2b",
+      "label": "Haute-Corse (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-2b.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-973",
+      "label": "Guyane (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-973.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
+    },
+    {
+      "id": "communes-colleges-974",
+      "label": "La Réunion (approx. communale)",
+      "type": "static",
+      "url": "data/communes-colleges-974.geojson",
+      "fields": {
+        "secteur": "nom_college",
+        "etablissement": "nom_college"
+      }
     }
   ],
   "ecole": [
     {
-      "id": "paris-maternelles",
-      "label": "Paris (maternelles)",
-      "type": "live",
-      "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/secteurs-scolaires-maternelles/exports/geojson",
-      "fields": { "secteur": "etiquette", "etablissement": "lib_etab_1" }
-    },
-    {
-      "id": "paris-elementaires",
-      "label": "Paris (élémentaires)",
-      "type": "live",
-      "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/secteurs-scolaires-ecoles-elementaires/exports/geojson",
-      "fields": { "secteur": "etiquette", "etablissement": "lib_etab_1" }
-    },
-    {
       "id": "bordeaux-ecoles",
       "label": "Bordeaux Métropole",
-      "type": "live",
-      "url": "https://datahub.bordeaux-metropole.fr/api/explore/v2.1/catalog/datasets/se_ecole_s/exports/geojson",
-      "fields": { "secteur": "nom", "etablissement": "nom" }
+      "type": "static",
+      "url": "data/bordeaux-ecoles.geojson",
+      "fields": {
+        "secteur": "nom",
+        "etablissement": "nom"
+      }
     },
     {
       "id": "clermont-ecoles",
       "label": "Clermont-Ferrand",
-      "type": "live",
-      "url": "https://opendata.clermontmetropole.eu/api/explore/v2.1/catalog/datasets/secteurs-scolaires-des-ecoles-vcf/exports/geojson",
-      "fields": { "secteur": "nom", "etablissement": "nom" }
+      "type": "static",
+      "url": "data/clermont-ecoles.geojson",
+      "fields": {
+        "secteur": "nom",
+        "etablissement": "nom"
+      }
     },
     {
       "id": "orleans-maternelles",
       "label": "Orléans (maternelles)",
-      "type": "live",
-      "url": "https://data.orleans-metropole.fr/api/explore/v2.1/catalog/datasets/administratifscol_sect_mater/exports/geojson",
-      "fields": { "secteur": "si_designa", "etablissement": "si_designa" }
+      "type": "static",
+      "url": "data/orleans-maternelles.geojson",
+      "fields": {
+        "secteur": "si_designa",
+        "etablissement": "si_designa"
+      }
     },
     {
       "id": "orleans-elementaires",
       "label": "Orléans (élémentaires)",
-      "type": "live",
-      "url": "https://data.orleans-metropole.fr/api/explore/v2.1/catalog/datasets/administratifscol_sect_elem/exports/geojson",
-      "fields": { "secteur": "si_designa", "etablissement": "si_designa" }
+      "type": "static",
+      "url": "data/orleans-elementaires.geojson",
+      "fields": {
+        "secteur": "si_designa",
+        "etablissement": "si_designa"
+      }
     },
     {
       "id": "saint-nazaire-ecoles",
       "label": "Saint-Nazaire",
-      "type": "live",
-      "url": "https://data.agglo-carene.fr/api/explore/v2.1/catalog/datasets/214401846_educ_perimetre_ecole_prox_184/exports/geojson",
-      "fields": { "secteur": "secteur", "etablissement": "nom" }
+      "type": "static",
+      "url": "data/saint-nazaire-ecoles.geojson",
+      "fields": {
+        "secteur": "secteur",
+        "etablissement": "nom"
+      }
     },
     {
       "id": "issy-ecoles",
       "label": "Issy-les-Moulineaux",
-      "type": "live",
-      "url": "https://data.issy.com/api/explore/v2.1/catalog/datasets/ecoles-maternelles-secteurs-scolaires-a-issy-les-moulineaux0/exports/geojson",
-      "fields": { "secteur": "secteurs_scolaires", "etablissement": "nom" }
+      "type": "static",
+      "url": "data/issy-ecoles.geojson",
+      "fields": {
+        "secteur": "secteurs_scolaires",
+        "etablissement": "nom"
+      }
+    },
+    {
+      "id": "paris-maternelles-75001",
+      "label": "Paris 1er arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75001.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75001",
+      "label": "Paris 1er arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75001.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75002",
+      "label": "Paris 2e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75002.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75002",
+      "label": "Paris 2e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75002.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75003",
+      "label": "Paris 3e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75003.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75003",
+      "label": "Paris 3e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75003.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75004",
+      "label": "Paris 4e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75004.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75004",
+      "label": "Paris 4e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75004.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75005",
+      "label": "Paris 5e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75005.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75005",
+      "label": "Paris 5e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75005.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75006",
+      "label": "Paris 6e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75006.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75006",
+      "label": "Paris 6e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75006.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75007",
+      "label": "Paris 7e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75007.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75007",
+      "label": "Paris 7e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75007.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75008",
+      "label": "Paris 8e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75008.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75008",
+      "label": "Paris 8e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75008.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75009",
+      "label": "Paris 9e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75009.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75009",
+      "label": "Paris 9e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75009.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75010",
+      "label": "Paris 10e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75010.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75010",
+      "label": "Paris 10e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75010.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75011",
+      "label": "Paris 11e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75011.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75011",
+      "label": "Paris 11e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75011.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75012",
+      "label": "Paris 12e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75012.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75012",
+      "label": "Paris 12e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75012.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75013",
+      "label": "Paris 13e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75013.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75013",
+      "label": "Paris 13e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75013.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75014",
+      "label": "Paris 14e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75014.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75014",
+      "label": "Paris 14e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75014.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75015",
+      "label": "Paris 15e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75015.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75015",
+      "label": "Paris 15e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75015.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75016",
+      "label": "Paris 16e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75016.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75016",
+      "label": "Paris 16e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75016.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75017",
+      "label": "Paris 17e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75017.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75017",
+      "label": "Paris 17e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75017.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75018",
+      "label": "Paris 18e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75018.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75018",
+      "label": "Paris 18e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75018.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75019",
+      "label": "Paris 19e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75019.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75019",
+      "label": "Paris 19e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75019.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-maternelles-75020",
+      "label": "Paris 20e arrondissement (maternelles)",
+      "type": "static",
+      "url": "data/paris-maternelles-75020.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
+    },
+    {
+      "id": "paris-elementaires-75020",
+      "label": "Paris 20e arrondissement (élémentaires)",
+      "type": "static",
+      "url": "data/paris-elementaires-75020.geojson",
+      "fields": {
+        "secteur": "etiquette",
+        "etablissement": "lib_etab_1"
+      }
     }
   ],
   "lycee": []

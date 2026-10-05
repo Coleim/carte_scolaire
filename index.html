@@ -200,6 +200,8 @@ let registry = null;
 let currentNiveau = null;
 let currentSource = null;
 let currentLayer = null;
+let neighborLayers = [];
+let parisAdjacency = null;
 const cache = {}; // sourceId -> GeoJSON data
 
 const niveauButtons = Array.from(document.querySelectorAll("#niveauSwitch button"));
@@ -329,6 +331,8 @@ function clearMap() {
     map.removeLayer(currentLayer);
     currentLayer = null;
   }
+  neighborLayers.forEach((l) => map.removeLayer(l));
+  neighborLayers = [];
   currentSource = null;
   legendContent.innerHTML = "";
   legend.classList.remove("has-items");
@@ -359,6 +363,58 @@ async function loadSourceData(source) {
   const data = await res.json();
   cache[source.id] = data;
   return data;
+}
+
+// ---------------------------------------------------------------------------
+// Paris : affichage des arrondissements voisins en contexte (atténués)
+// ---------------------------------------------------------------------------
+const PARIS_ID_RE = /^paris-([a-z]+)-750(\d{2})$/;
+
+async function getParisAdjacency() {
+  if (parisAdjacency) return parisAdjacency;
+  try {
+    const res = await fetch("data/paris-arrondissements-adjacency.json");
+    parisAdjacency = await res.json();
+  } catch (err) {
+    parisAdjacency = {};
+  }
+  return parisAdjacency;
+}
+
+function findSourceById(niveau, id) {
+  return (registry[niveau] || []).find((s) => s.id === id);
+}
+
+async function loadNeighborLayers(source) {
+  const match = source.id.match(PARIS_ID_RE);
+  if (!match) return;
+  const [, key, arrStr] = match;
+  const arr = parseInt(arrStr, 10);
+  const adjacency = await getParisAdjacency();
+  const neighborNumbers = adjacency[arr] || [];
+
+  await Promise.all(neighborNumbers.map(async (n) => {
+    const postal = `750${String(n).padStart(2, "0")}`;
+    const neighborId = `paris-${key}-${postal}`;
+    const neighborSource = findSourceById(currentNiveau, neighborId);
+    if (!neighborSource || neighborSource.id === source.id) return;
+    try {
+      const data = await loadSourceData(neighborSource);
+      if (currentSource !== source) return; // l'utilisateur a changé de sélection entretemps
+      const layer = L.geoJson(data, {
+        style: { color: "#555555", fillColor: "#888888", fillOpacity: 0.12, weight: 1, dashArray: "3,3" },
+        onEachFeature: (feature, lyr) => {
+          const etablissement = getField(feature.properties, neighborSource.fields.etablissement);
+          if (etablissement) lyr.bindTooltip(`<div style="opacity:0.8">${etablissement}<br><small>${neighborSource.label}</small></div>`, { sticky: true });
+        },
+      });
+      layer.addTo(map);
+      layer.bringToBack();
+      neighborLayers.push(layer);
+    } catch (err) {
+      console.warn(`Voisin indisponible (${neighborSource.label}):`, err);
+    }
+  }));
 }
 
 async function loadTerritoire(source) {
@@ -400,6 +456,8 @@ async function loadTerritoire(source) {
 
     updateLegend(source, secteurs);
     setStatus(`${secteurs.length ? new Set(secteurs).size : layer.getLayers().length} secteur(s) affiché(s) pour "${source.label}".`);
+
+    loadNeighborLayers(source);
   } catch (err) {
     console.warn(`Source indisponible (${source.label}):`, err);
     setStatus("");
