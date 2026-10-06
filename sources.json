@@ -293,7 +293,7 @@
     },
     {
       "id": "communes-colleges-01",
-      "label": "Ain (approx. communale)",
+      "label": "Ain",
       "type": "static",
       "url": "data/communes-colleges-01.geojson",
       "fields": {
@@ -303,7 +303,7 @@
     },
     {
       "id": "communes-colleges-02",
-      "label": "Aisne (approx. communale)",
+      "label": "Aisne",
       "type": "static",
       "url": "data/communes-colleges-02.geojson",
       "fields": {
@@ -313,7 +313,7 @@
     },
     {
       "id": "communes-colleges-03",
-      "label": "Allier (approx. communale)",
+      "label": "Allier",
       "type": "static",
       "url": "data/communes-colleges-03.geojson",
       "fields": {
@@ -323,7 +323,7 @@
     },
     {
       "id": "communes-colleges-04",
-      "label": "Alpes-de-Haute-Provence (approx. communale)",
+      "label": "Alpes-de-Haute-Provence",
       "type": "static",
       "url": "data/communes-colleges-04.geojson",
       "fields": {
@@ -333,7 +333,7 @@
     },
     {
       "id": "communes-colleges-05",
-      "label": "Hautes-Alpes (approx. communale)",
+      "label": "Hautes-Alpes",
       "type": "static",
       "url": "data/communes-colleges-05.geojson",
       "fields": {
@@ -343,7 +343,7 @@
     },
     {
       "id": "communes-colleges-07",
-      "label": "Ardèche (approx. communale)",
+      "label": "Ardèche",
       "type": "static",
       "url": "data/communes-colleges-07.geojson",
       "fields": {
@@ -353,7 +353,7 @@
     },
     {
       "id": "communes-colleges-08",
-      "label": "Ardennes (approx. communale)",
+      "label": "Ardennes",
       "type": "static",
       "url": "data/communes-colleges-08.geojson",
       "fields": {
@@ -363,7 +363,7 @@
     },
     {
       "id": "communes-colleges-09",
-      "label": "Ariège (approx. communale)",
+      "label": "Ariège",
       "type": "static",
       "url": "data/communes-colleges-09.geojson",
       "fields": {
@@ -373,7 +373,7 @@
     },
     {
       "id": "communes-colleges-10",
-      "label": "Aube (approx. communale)",
+      "label": "Aube",
       "type": "static",
       "url": "data/communes-colleges-10.geojson",
       "fields": {
@@ -383,7 +383,7 @@
     },
     {
       "id": "communes-colleges-12",
-      "label": "Aveyron (approx. communale)",
+      "label": "Aveyron",
       "type": "static",
       "url": "data/communes-colleges-12.geojson",
       "fields": {
@@ -393,7 +393,7 @@
     },
     {
       "id": "communes-colleges-13",
-      "label": "Bouches-du-Rhône (approx. communale)",
+      "label": "Bouches-du-Rhône",
       "type": "static",
       "url": "data/communes-colleges-13.geojson",
       "fields": {
@@ -403,7 +403,7 @@
     },
     {
       "id": "communes-colleges-14",
-      "label": "Calvados (approx. communale)",
+      "label": "Calvados",
       "type": "static",
       "url": "data/communes-colleges-14.geojson",
       "fields": {
@@ -413,7 +413,7 @@
     },
     {
       "id": "communes-colleges-15",
-      "label": "Cantal (approx. communale)",
+      "label": "Cantal",
       "type": "static",
       "url": "data/communes-colleges-15.geojson",
       "fields": {
@@ -423,7 +423,7 @@
     },
     {
       "id": "communes-colleges-16",
-      "label": "Charente (approx. communale)",
+      "label": "Charente",
       "type": "static",
       "url": "data/communes-colleges-16.geojson",
       "fields": {
@@ -433,7 +433,7 @@
     },
     {
       "id": "communes-colleges-18",
-      "label": "Cher (approx. communale)",
+      "label": "Cher",
       "type": "static",
       "url": "data/communes-colleges-18.geojson",
       "fields": {
@@ -443,7 +443,7 @@
     },
     {
       "id": "communes-colleges-19",
-      "label": "Corrèze (approx. communale)",
+      "label": "Corrèze",
       "type": "static",
       "url": "data/communes-colleges-19.geojson",
       "fields": {
@@ -453,7 +453,7 @@
     },
     {
       "id": "communes-colleges-21",
-      "label": "Côte-d'Or (approx. communale)",
+      "label": "Côte-d'Or",
       "type": "static",
       "url": "data/communes-colleges-21.geojson",
       "fields": {
@@ -463,7 +463,7 @@
     },
     {
       "id": "communes-colleges-23",
-      "label": "Creuse (approx. communale)",
+      "label": "Creuse",
       "type": "static",
       "url": "data/communes-colleges-23.geojson",
       "fields": {
@@ -473,7 +473,7 @@
     },
     {
       "id": "communes-colleges-24",
-      "label": "Dordogne (approx. communale)",
+      "label": "Dordogne",
       "type": "static",
       "url": "data/communes-colleges-24.geojson",
       "fields": {
@@ -483,7 +483,7 @@
     },
     {
       "id": "communes-colleges-25",
-      "label": "Doubs (approx. communale)",
+      "label": "Doubs",
       "type": "static",
       "url": "data/communes-colleges-25.geojson",
       "fields": {
@@ -493,7 +493,7 @@
     },
     {
       "id": "communes-colleges-26",
-      "label": "Drôme (approx. communale)",
+      "label": "Drôme",
       "type": "static",
       "url": "data/communes-colleges-26.geojson",
       "fields": {
@@ -503,7 +503,7 @@
     },
     {
       "id": "communes-colleges-27",
-      "label": "Eure (approx. communale)",
+      "label": "Eure",
       "type": "static",
       "url": "data/communes-colleges-27.geojson",
       "fields": {
@@ -513,7 +513,7 @@
     },
     {
       "id": "communes-colleges-28",
-      "label": "Eure-et-Loir (approx. communale)",
+      "label": "Eure-et-Loir",
       "type": "static",
       "url": "data/communes-colleges-28.geojson",
       "fields": {
@@ -523,7 +523,7 @@
     },
     {
       "id": "communes-colleges-29",
-      "label": "Finistère (approx. communale)",
+      "label": "Finistère",
       "type": "static",
       "url": "data/communes-colleges-29.geojson",
       "fields": {
@@ -533,7 +533,7 @@
     },
     {
       "id": "communes-colleges-30",
-      "label": "Gard (approx. communale)",
+      "label": "Gard",
       "type": "static",
       "url": "data/communes-colleges-30.geojson",
       "fields": {
@@ -543,7 +543,7 @@
     },
     {
       "id": "communes-colleges-32",
-      "label": "Gers (approx. communale)",
+      "label": "Gers",
       "type": "static",
       "url": "data/communes-colleges-32.geojson",
       "fields": {
@@ -553,7 +553,7 @@
     },
     {
       "id": "communes-colleges-33",
-      "label": "Gironde (approx. communale)",
+      "label": "Gironde",
       "type": "static",
       "url": "data/communes-colleges-33.geojson",
       "fields": {
@@ -563,7 +563,7 @@
     },
     {
       "id": "communes-colleges-34",
-      "label": "Hérault (approx. communale)",
+      "label": "Hérault",
       "type": "static",
       "url": "data/communes-colleges-34.geojson",
       "fields": {
@@ -573,7 +573,7 @@
     },
     {
       "id": "communes-colleges-35",
-      "label": "Ille-et-Vilaine (approx. communale)",
+      "label": "Ille-et-Vilaine",
       "type": "static",
       "url": "data/communes-colleges-35.geojson",
       "fields": {
@@ -583,7 +583,7 @@
     },
     {
       "id": "communes-colleges-36",
-      "label": "Indre (approx. communale)",
+      "label": "Indre",
       "type": "static",
       "url": "data/communes-colleges-36.geojson",
       "fields": {
@@ -593,7 +593,7 @@
     },
     {
       "id": "communes-colleges-37",
-      "label": "Indre-et-Loire (approx. communale)",
+      "label": "Indre-et-Loire",
       "type": "static",
       "url": "data/communes-colleges-37.geojson",
       "fields": {
@@ -603,7 +603,7 @@
     },
     {
       "id": "communes-colleges-39",
-      "label": "Jura (approx. communale)",
+      "label": "Jura",
       "type": "static",
       "url": "data/communes-colleges-39.geojson",
       "fields": {
@@ -613,7 +613,7 @@
     },
     {
       "id": "communes-colleges-40",
-      "label": "Landes (approx. communale)",
+      "label": "Landes",
       "type": "static",
       "url": "data/communes-colleges-40.geojson",
       "fields": {
@@ -623,7 +623,7 @@
     },
     {
       "id": "communes-colleges-41",
-      "label": "Loir-et-Cher (approx. communale)",
+      "label": "Loir-et-Cher",
       "type": "static",
       "url": "data/communes-colleges-41.geojson",
       "fields": {
@@ -633,7 +633,7 @@
     },
     {
       "id": "communes-colleges-42",
-      "label": "Loire (approx. communale)",
+      "label": "Loire",
       "type": "static",
       "url": "data/communes-colleges-42.geojson",
       "fields": {
@@ -643,7 +643,7 @@
     },
     {
       "id": "communes-colleges-43",
-      "label": "Haute-Loire (approx. communale)",
+      "label": "Haute-Loire",
       "type": "static",
       "url": "data/communes-colleges-43.geojson",
       "fields": {
@@ -653,7 +653,7 @@
     },
     {
       "id": "communes-colleges-45",
-      "label": "Loiret (approx. communale)",
+      "label": "Loiret",
       "type": "static",
       "url": "data/communes-colleges-45.geojson",
       "fields": {
@@ -663,7 +663,7 @@
     },
     {
       "id": "communes-colleges-46",
-      "label": "Lot (approx. communale)",
+      "label": "Lot",
       "type": "static",
       "url": "data/communes-colleges-46.geojson",
       "fields": {
@@ -673,7 +673,7 @@
     },
     {
       "id": "communes-colleges-47",
-      "label": "Lot-et-Garonne (approx. communale)",
+      "label": "Lot-et-Garonne",
       "type": "static",
       "url": "data/communes-colleges-47.geojson",
       "fields": {
@@ -683,7 +683,7 @@
     },
     {
       "id": "communes-colleges-48",
-      "label": "Lozère (approx. communale)",
+      "label": "Lozère",
       "type": "static",
       "url": "data/communes-colleges-48.geojson",
       "fields": {
@@ -693,7 +693,7 @@
     },
     {
       "id": "communes-colleges-50",
-      "label": "Manche (approx. communale)",
+      "label": "Manche",
       "type": "static",
       "url": "data/communes-colleges-50.geojson",
       "fields": {
@@ -703,7 +703,7 @@
     },
     {
       "id": "communes-colleges-51",
-      "label": "Marne (approx. communale)",
+      "label": "Marne",
       "type": "static",
       "url": "data/communes-colleges-51.geojson",
       "fields": {
@@ -713,7 +713,7 @@
     },
     {
       "id": "communes-colleges-52",
-      "label": "Haute-Marne (approx. communale)",
+      "label": "Haute-Marne",
       "type": "static",
       "url": "data/communes-colleges-52.geojson",
       "fields": {
@@ -723,7 +723,7 @@
     },
     {
       "id": "communes-colleges-53",
-      "label": "Mayenne (approx. communale)",
+      "label": "Mayenne",
       "type": "static",
       "url": "data/communes-colleges-53.geojson",
       "fields": {
@@ -733,7 +733,7 @@
     },
     {
       "id": "communes-colleges-54",
-      "label": "Meurthe-et-Moselle (approx. communale)",
+      "label": "Meurthe-et-Moselle",
       "type": "static",
       "url": "data/communes-colleges-54.geojson",
       "fields": {
@@ -743,7 +743,7 @@
     },
     {
       "id": "communes-colleges-55",
-      "label": "Meuse (approx. communale)",
+      "label": "Meuse",
       "type": "static",
       "url": "data/communes-colleges-55.geojson",
       "fields": {
@@ -753,7 +753,7 @@
     },
     {
       "id": "communes-colleges-56",
-      "label": "Morbihan (approx. communale)",
+      "label": "Morbihan",
       "type": "static",
       "url": "data/communes-colleges-56.geojson",
       "fields": {
@@ -763,7 +763,7 @@
     },
     {
       "id": "communes-colleges-57",
-      "label": "Moselle (approx. communale)",
+      "label": "Moselle",
       "type": "static",
       "url": "data/communes-colleges-57.geojson",
       "fields": {
@@ -773,7 +773,7 @@
     },
     {
       "id": "communes-colleges-58",
-      "label": "Nièvre (approx. communale)",
+      "label": "Nièvre",
       "type": "static",
       "url": "data/communes-colleges-58.geojson",
       "fields": {
@@ -783,7 +783,7 @@
     },
     {
       "id": "communes-colleges-59",
-      "label": "Nord (approx. communale)",
+      "label": "Nord",
       "type": "static",
       "url": "data/communes-colleges-59.geojson",
       "fields": {
@@ -793,7 +793,7 @@
     },
     {
       "id": "communes-colleges-60",
-      "label": "Oise (approx. communale)",
+      "label": "Oise",
       "type": "static",
       "url": "data/communes-colleges-60.geojson",
       "fields": {
@@ -803,7 +803,7 @@
     },
     {
       "id": "communes-colleges-61",
-      "label": "Orne (approx. communale)",
+      "label": "Orne",
       "type": "static",
       "url": "data/communes-colleges-61.geojson",
       "fields": {
@@ -813,7 +813,7 @@
     },
     {
       "id": "communes-colleges-62",
-      "label": "Pas-de-Calais (approx. communale)",
+      "label": "Pas-de-Calais",
       "type": "static",
       "url": "data/communes-colleges-62.geojson",
       "fields": {
@@ -823,7 +823,7 @@
     },
     {
       "id": "communes-colleges-63",
-      "label": "Puy-de-Dôme (approx. communale)",
+      "label": "Puy-de-Dôme",
       "type": "static",
       "url": "data/communes-colleges-63.geojson",
       "fields": {
@@ -833,7 +833,7 @@
     },
     {
       "id": "communes-colleges-64",
-      "label": "Pyrénées-Atlantiques (approx. communale)",
+      "label": "Pyrénées-Atlantiques",
       "type": "static",
       "url": "data/communes-colleges-64.geojson",
       "fields": {
@@ -843,7 +843,7 @@
     },
     {
       "id": "communes-colleges-66",
-      "label": "Pyrénées-Orientales (approx. communale)",
+      "label": "Pyrénées-Orientales",
       "type": "static",
       "url": "data/communes-colleges-66.geojson",
       "fields": {
@@ -853,7 +853,7 @@
     },
     {
       "id": "communes-colleges-67",
-      "label": "Bas-Rhin (approx. communale)",
+      "label": "Bas-Rhin",
       "type": "static",
       "url": "data/communes-colleges-67.geojson",
       "fields": {
@@ -863,7 +863,7 @@
     },
     {
       "id": "communes-colleges-68",
-      "label": "Haut-Rhin (approx. communale)",
+      "label": "Haut-Rhin",
       "type": "static",
       "url": "data/communes-colleges-68.geojson",
       "fields": {
@@ -873,7 +873,7 @@
     },
     {
       "id": "communes-colleges-69",
-      "label": "Rhône (approx. communale)",
+      "label": "Rhône",
       "type": "static",
       "url": "data/communes-colleges-69.geojson",
       "fields": {
@@ -883,7 +883,7 @@
     },
     {
       "id": "communes-colleges-70",
-      "label": "Haute-Saône (approx. communale)",
+      "label": "Haute-Saône",
       "type": "static",
       "url": "data/communes-colleges-70.geojson",
       "fields": {
@@ -893,7 +893,7 @@
     },
     {
       "id": "communes-colleges-71",
-      "label": "Saône-et-Loire (approx. communale)",
+      "label": "Saône-et-Loire",
       "type": "static",
       "url": "data/communes-colleges-71.geojson",
       "fields": {
@@ -903,7 +903,7 @@
     },
     {
       "id": "communes-colleges-72",
-      "label": "Sarthe (approx. communale)",
+      "label": "Sarthe",
       "type": "static",
       "url": "data/communes-colleges-72.geojson",
       "fields": {
@@ -913,7 +913,7 @@
     },
     {
       "id": "communes-colleges-73",
-      "label": "Savoie (approx. communale)",
+      "label": "Savoie",
       "type": "static",
       "url": "data/communes-colleges-73.geojson",
       "fields": {
@@ -923,7 +923,7 @@
     },
     {
       "id": "communes-colleges-74",
-      "label": "Haute-Savoie (approx. communale)",
+      "label": "Haute-Savoie",
       "type": "static",
       "url": "data/communes-colleges-74.geojson",
       "fields": {
@@ -933,7 +933,7 @@
     },
     {
       "id": "communes-colleges-76",
-      "label": "Seine-Maritime (approx. communale)",
+      "label": "Seine-Maritime",
       "type": "static",
       "url": "data/communes-colleges-76.geojson",
       "fields": {
@@ -943,7 +943,7 @@
     },
     {
       "id": "communes-colleges-77",
-      "label": "Seine-et-Marne (approx. communale)",
+      "label": "Seine-et-Marne",
       "type": "static",
       "url": "data/communes-colleges-77.geojson",
       "fields": {
@@ -953,7 +953,7 @@
     },
     {
       "id": "communes-colleges-78",
-      "label": "Yvelines (approx. communale)",
+      "label": "Yvelines",
       "type": "static",
       "url": "data/communes-colleges-78.geojson",
       "fields": {
@@ -963,7 +963,7 @@
     },
     {
       "id": "communes-colleges-79",
-      "label": "Deux-Sèvres (approx. communale)",
+      "label": "Deux-Sèvres",
       "type": "static",
       "url": "data/communes-colleges-79.geojson",
       "fields": {
@@ -973,7 +973,7 @@
     },
     {
       "id": "communes-colleges-80",
-      "label": "Somme (approx. communale)",
+      "label": "Somme",
       "type": "static",
       "url": "data/communes-colleges-80.geojson",
       "fields": {
@@ -983,7 +983,7 @@
     },
     {
       "id": "communes-colleges-81",
-      "label": "Tarn (approx. communale)",
+      "label": "Tarn",
       "type": "static",
       "url": "data/communes-colleges-81.geojson",
       "fields": {
@@ -993,7 +993,7 @@
     },
     {
       "id": "communes-colleges-82",
-      "label": "Tarn-et-Garonne (approx. communale)",
+      "label": "Tarn-et-Garonne",
       "type": "static",
       "url": "data/communes-colleges-82.geojson",
       "fields": {
@@ -1003,7 +1003,7 @@
     },
     {
       "id": "communes-colleges-83",
-      "label": "Var (approx. communale)",
+      "label": "Var",
       "type": "static",
       "url": "data/communes-colleges-83.geojson",
       "fields": {
@@ -1013,7 +1013,7 @@
     },
     {
       "id": "communes-colleges-84",
-      "label": "Vaucluse (approx. communale)",
+      "label": "Vaucluse",
       "type": "static",
       "url": "data/communes-colleges-84.geojson",
       "fields": {
@@ -1023,7 +1023,7 @@
     },
     {
       "id": "communes-colleges-85",
-      "label": "Vendée (approx. communale)",
+      "label": "Vendée",
       "type": "static",
       "url": "data/communes-colleges-85.geojson",
       "fields": {
@@ -1033,7 +1033,7 @@
     },
     {
       "id": "communes-colleges-86",
-      "label": "Vienne (approx. communale)",
+      "label": "Vienne",
       "type": "static",
       "url": "data/communes-colleges-86.geojson",
       "fields": {
@@ -1043,7 +1043,7 @@
     },
     {
       "id": "communes-colleges-87",
-      "label": "Haute-Vienne (approx. communale)",
+      "label": "Haute-Vienne",
       "type": "static",
       "url": "data/communes-colleges-87.geojson",
       "fields": {
@@ -1053,7 +1053,7 @@
     },
     {
       "id": "communes-colleges-88",
-      "label": "Vosges (approx. communale)",
+      "label": "Vosges",
       "type": "static",
       "url": "data/communes-colleges-88.geojson",
       "fields": {
@@ -1063,7 +1063,7 @@
     },
     {
       "id": "communes-colleges-89",
-      "label": "Yonne (approx. communale)",
+      "label": "Yonne",
       "type": "static",
       "url": "data/communes-colleges-89.geojson",
       "fields": {
@@ -1073,7 +1073,7 @@
     },
     {
       "id": "communes-colleges-90",
-      "label": "Territoire de Belfort (approx. communale)",
+      "label": "Territoire de Belfort",
       "type": "static",
       "url": "data/communes-colleges-90.geojson",
       "fields": {
@@ -1083,7 +1083,7 @@
     },
     {
       "id": "communes-colleges-91",
-      "label": "Essonne (approx. communale)",
+      "label": "Essonne",
       "type": "static",
       "url": "data/communes-colleges-91.geojson",
       "fields": {
@@ -1093,7 +1093,7 @@
     },
     {
       "id": "communes-colleges-94",
-      "label": "Val-de-Marne (approx. communale)",
+      "label": "Val-de-Marne",
       "type": "static",
       "url": "data/communes-colleges-94.geojson",
       "fields": {
@@ -1103,7 +1103,7 @@
     },
     {
       "id": "communes-colleges-95",
-      "label": "Val-d'Oise (approx. communale)",
+      "label": "Val-d'Oise",
       "type": "static",
       "url": "data/communes-colleges-95.geojson",
       "fields": {
@@ -1113,7 +1113,7 @@
     },
     {
       "id": "communes-colleges-2b",
-      "label": "Haute-Corse (approx. communale)",
+      "label": "Haute-Corse",
       "type": "static",
       "url": "data/communes-colleges-2b.geojson",
       "fields": {
@@ -1123,7 +1123,7 @@
     },
     {
       "id": "communes-colleges-973",
-      "label": "Guyane (approx. communale)",
+      "label": "Guyane",
       "type": "static",
       "url": "data/communes-colleges-973.geojson",
       "fields": {
@@ -1133,7 +1133,7 @@
     },
     {
       "id": "communes-colleges-974",
-      "label": "La Réunion (approx. communale)",
+      "label": "La Réunion",
       "type": "static",
       "url": "data/communes-colleges-974.geojson",
       "fields": {
