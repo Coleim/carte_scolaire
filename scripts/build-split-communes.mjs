@@ -237,26 +237,36 @@ function buildStreetRules(rows) {
 
 function matchRule(streetToRules, street, numero) {
   const rules = streetToRules.get(street);
-  if (!rules) return null;
-  for (const rule of rules) {
-    if (numero == null) return rule;
-    if (numero < rule.debut || numero > rule.fin) continue;
-    if (rule.parite === "P" && numero % 2 !== 0) continue;
-    if (rule.parite === "I" && numero % 2 === 0) continue;
-    return rule;
+  if (rules) {
+    for (const rule of rules) {
+      if (numero == null) return rule;
+      if (numero < rule.debut || numero > rule.fin) continue;
+      if (rule.parite === "P" && numero % 2 !== 0) continue;
+      if (rule.parite === "I" && numero % 2 === 0) continue;
+      return rule;
+    }
+    // Les règles de cette rue existent mais aucune plage de numéros ne
+    // correspond : on retombe sur la règle par défaut ci-dessous plutôt que
+    // d'abandonner l'adresse.
   }
-  return rules[0] ?? null;
+  // Règle "par défaut" : ligne sans nom de rue (type_et_libelle vide), qui
+  // représente "le reste de la commune non listé explicitement".
+  const fallback = streetToRules.get("");
+  if (fallback && fallback.length > 0) return fallback[0];
+  return null;
 }
 
 function splitCommuneVoronoi(communeFeature, addresses, streetToRules) {
   const seedGroups = new Map(); // "street|ruleIdx" -> {sumLon,sumLat,count,rne}
   for (const a of addresses) {
-    const rules = streetToRules.get(a.street);
-    if (!rules) continue;
     const rule = matchRule(streetToRules, a.street, a.numero);
     if (!rule) continue;
-    const ruleIdx = rules.indexOf(rule);
-    const key = `${a.street}|${ruleIdx}`;
+    // Les adresses retombées sur la règle par défaut partagent toutes la
+    // même clé "__default__" (un seul point moyen représentant "le reste de
+    // la commune"), les autres sont groupées par rue + règle spécifique.
+    const rules = streetToRules.get(a.street);
+    const ruleIdx = rules ? rules.indexOf(rule) : -1;
+    const key = ruleIdx >= 0 ? `${a.street}|${ruleIdx}` : "__default__";
     if (!seedGroups.has(key)) seedGroups.set(key, { sumLon: 0, sumLat: 0, count: 0, rne: rule.rne });
     const g = seedGroups.get(key);
     g.sumLon += a.lon; g.sumLat += a.lat; g.count++;

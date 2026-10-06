@@ -1,17 +1,872 @@
 {
   "shared": [
     {
+      "dept": "001",
+      "count": 3
+    },
+    {
+      "dept": "002",
+      "count": 0
+    },
+    {
+      "dept": "003",
+      "count": 6
+    },
+    {
+      "dept": "004",
+      "count": 0
+    },
+    {
+      "dept": "005",
+      "count": 0
+    },
+    {
+      "dept": "007",
+      "count": 3
+    },
+    {
+      "dept": "008",
+      "count": 3
+    },
+    {
+      "dept": "009",
+      "count": 4
+    },
+    {
+      "dept": "010",
+      "count": 0
+    },
+    {
+      "dept": "012",
+      "count": 0
+    },
+    {
+      "dept": "013",
+      "count": 0
+    },
+    {
+      "dept": "014",
+      "count": 2
+    },
+    {
+      "dept": "015",
+      "count": 7
+    },
+    {
+      "dept": "016",
+      "count": 0
+    },
+    {
+      "dept": "018",
+      "count": 1
+    },
+    {
+      "dept": "019",
+      "count": 5
+    },
+    {
+      "dept": "021",
+      "count": 0
+    },
+    {
+      "dept": "023",
+      "count": 15
+    },
+    {
+      "dept": "024",
+      "count": 0
+    },
+    {
+      "dept": "025",
+      "count": 8
+    },
+    {
+      "dept": "026",
+      "count": 7
+    },
+    {
+      "dept": "027",
+      "count": 5
+    },
+    {
+      "dept": "028",
+      "count": 2
+    },
+    {
+      "dept": "029",
+      "count": 23
+    },
+    {
+      "dept": "030",
+      "count": 0
+    },
+    {
+      "dept": "032",
+      "count": 21
+    },
+    {
+      "dept": "033",
+      "count": 0
+    },
+    {
+      "dept": "034",
+      "count": 2
+    },
+    {
+      "dept": "035",
+      "count": 27
+    },
+    {
+      "dept": "036",
+      "count": 0
+    },
+    {
+      "dept": "037",
+      "count": 1
+    },
+    {
+      "dept": "039",
+      "count": 3
+    },
+    {
+      "dept": "040",
+      "count": 0
+    },
+    {
+      "dept": "041",
+      "count": 0
+    },
+    {
+      "dept": "042",
+      "count": 7
+    },
+    {
+      "dept": "043",
+      "count": 30
+    },
+    {
+      "dept": "045",
+      "count": 1
+    },
+    {
+      "dept": "046",
+      "count": 0
+    },
+    {
+      "dept": "047",
+      "count": 1
+    },
+    {
+      "dept": "048",
+      "count": 167
+    },
+    {
+      "dept": "050",
+      "count": 0
+    },
+    {
+      "dept": "051",
+      "count": 3
+    },
+    {
+      "dept": "052",
+      "count": 1
+    },
+    {
+      "dept": "053",
+      "count": 0
+    },
+    {
+      "dept": "054",
+      "count": 0
+    },
+    {
+      "dept": "055",
+      "count": 0
+    },
+    {
+      "dept": "056",
+      "count": 12
+    },
+    {
+      "dept": "057",
+      "count": 0
+    },
+    {
+      "dept": "058",
+      "count": 3
+    },
+    {
       "dept": "059",
       "count": 13
+    },
+    {
+      "dept": "060",
+      "count": 0
+    },
+    {
+      "dept": "061",
+      "count": 8
+    },
+    {
+      "dept": "062",
+      "count": 0
+    },
+    {
+      "dept": "063",
+      "count": 1
+    },
+    {
+      "dept": "064",
+      "count": 1
+    },
+    {
+      "dept": "066",
+      "count": 0
+    },
+    {
+      "dept": "067",
+      "count": 1
+    },
+    {
+      "dept": "068",
+      "count": 2
+    },
+    {
+      "dept": "069",
+      "count": 10
+    },
+    {
+      "dept": "070",
+      "count": 0
+    },
+    {
+      "dept": "071",
+      "count": 4
+    },
+    {
+      "dept": "072",
+      "count": 13
+    },
+    {
+      "dept": "073",
+      "count": 0
+    },
+    {
+      "dept": "074",
+      "count": 0
+    },
+    {
+      "dept": "076",
+      "count": 1
+    },
+    {
+      "dept": "077",
+      "count": 0
+    },
+    {
+      "dept": "078",
+      "count": 0
+    },
+    {
+      "dept": "079",
+      "count": 0
+    },
+    {
+      "dept": "080",
+      "count": 0
+    },
+    {
+      "dept": "081",
+      "count": 10
+    },
+    {
+      "dept": "082",
+      "count": 0
+    },
+    {
+      "dept": "083",
+      "count": 0
+    },
+    {
+      "dept": "084",
+      "count": 0
+    },
+    {
+      "dept": "085",
+      "count": 1
+    },
+    {
+      "dept": "086",
+      "count": 0
+    },
+    {
+      "dept": "087",
+      "count": 10
+    },
+    {
+      "dept": "088",
+      "count": 0
+    },
+    {
+      "dept": "089",
+      "count": 3
+    },
+    {
+      "dept": "090",
+      "count": 1
+    },
+    {
+      "dept": "091",
+      "count": 0
+    },
+    {
+      "dept": "093",
+      "count": 0
+    },
+    {
+      "dept": "094",
+      "count": 0
+    },
+    {
+      "dept": "095",
+      "count": 1
+    },
+    {
+      "dept": "720",
+      "count": 0
+    },
+    {
+      "dept": "973",
+      "count": 0
+    },
+    {
+      "dept": "974",
+      "count": 0
     }
   ],
   "split": [
+    {
+      "dept": "001",
+      "ok": 19,
+      "failed": 1,
+      "total": 20
+    },
+    {
+      "dept": "002",
+      "ok": 6,
+      "failed": 0,
+      "total": 6
+    },
+    {
+      "dept": "003",
+      "ok": 3,
+      "failed": 0,
+      "total": 3
+    },
+    {
+      "dept": "004",
+      "ok": 4,
+      "failed": 0,
+      "total": 4
+    },
+    {
+      "dept": "005",
+      "ok": 5,
+      "failed": 1,
+      "total": 6
+    },
+    {
+      "dept": "007",
+      "ok": 11,
+      "failed": 2,
+      "total": 13
+    },
+    {
+      "dept": "008",
+      "ok": 3,
+      "failed": 0,
+      "total": 3
+    },
+    {
+      "dept": "009",
+      "ok": 2,
+      "failed": 0,
+      "total": 2
+    },
+    {
+      "dept": "010",
+      "ok": 5,
+      "failed": 0,
+      "total": 5
+    },
+    {
+      "dept": "012",
+      "ok": 18,
+      "failed": 5,
+      "total": 23
+    },
+    {
+      "dept": "013",
+      "ok": 33,
+      "failed": 0,
+      "total": 33
+    },
+    {
+      "dept": "014",
+      "ok": 17,
+      "failed": 1,
+      "total": 18
+    },
+    {
+      "dept": "015",
+      "ok": 3,
+      "failed": 1,
+      "total": 4
+    },
+    {
+      "dept": "016",
+      "ok": 9,
+      "failed": 0,
+      "total": 9
+    },
+    {
+      "dept": "018",
+      "ok": 3,
+      "failed": 0,
+      "total": 3
+    },
+    {
+      "dept": "019",
+      "ok": 5,
+      "failed": 0,
+      "total": 5
+    },
+    {
+      "dept": "021",
+      "ok": 6,
+      "failed": 0,
+      "total": 6
+    },
+    {
+      "dept": "023",
+      "ok": 0,
+      "failed": 0,
+      "total": 0
+    },
+    {
+      "dept": "024",
+      "ok": 11,
+      "failed": 0,
+      "total": 11
+    },
+    {
+      "dept": "025",
+      "ok": 8,
+      "failed": 0,
+      "total": 8
+    },
+    {
+      "dept": "026",
+      "ok": 8,
+      "failed": 0,
+      "total": 8
+    },
+    {
+      "dept": "027",
+      "ok": 16,
+      "failed": 0,
+      "total": 16
+    },
+    {
+      "dept": "028",
+      "ok": 9,
+      "failed": 0,
+      "total": 9
+    },
+    {
+      "dept": "029",
+      "ok": 17,
+      "failed": 0,
+      "total": 17
+    },
+    {
+      "dept": "030",
+      "ok": 8,
+      "failed": 0,
+      "total": 8
+    },
+    {
+      "dept": "032",
+      "ok": 2,
+      "failed": 0,
+      "total": 2
+    },
+    {
+      "dept": "033",
+      "ok": 22,
+      "failed": 0,
+      "total": 22
+    },
+    {
+      "dept": "034",
+      "ok": 9,
+      "failed": 0,
+      "total": 9
+    },
+    {
+      "dept": "035",
+      "ok": 6,
+      "failed": 1,
+      "total": 7
+    },
+    {
+      "dept": "036",
+      "ok": 3,
+      "failed": 0,
+      "total": 3
+    },
+    {
+      "dept": "037",
+      "ok": 6,
+      "failed": 0,
+      "total": 6
+    },
+    {
+      "dept": "039",
+      "ok": 5,
+      "failed": 2,
+      "total": 7
+    },
+    {
+      "dept": "040",
+      "ok": 5,
+      "failed": 0,
+      "total": 5
+    },
+    {
+      "dept": "041",
+      "ok": 4,
+      "failed": 0,
+      "total": 4
+    },
+    {
+      "dept": "042",
+      "ok": 7,
+      "failed": 0,
+      "total": 7
+    },
+    {
+      "dept": "043",
+      "ok": 0,
+      "failed": 0,
+      "total": 0
+    },
+    {
+      "dept": "045",
+      "ok": 13,
+      "failed": 0,
+      "total": 13
+    },
+    {
+      "dept": "046",
+      "ok": 1,
+      "failed": 0,
+      "total": 1
+    },
+    {
+      "dept": "047",
+      "ok": 4,
+      "failed": 0,
+      "total": 4
+    },
+    {
+      "dept": "048",
+      "ok": 0,
+      "failed": 0,
+      "total": 0
+    },
+    {
+      "dept": "050",
+      "ok": 10,
+      "failed": 0,
+      "total": 10
+    },
+    {
+      "dept": "051",
+      "ok": 5,
+      "failed": 2,
+      "total": 7
+    },
+    {
+      "dept": "052",
+      "ok": 3,
+      "failed": 0,
+      "total": 3
+    },
+    {
+      "dept": "053",
+      "ok": 4,
+      "failed": 0,
+      "total": 4
+    },
+    {
+      "dept": "054",
+      "ok": 21,
+      "failed": 0,
+      "total": 21
+    },
+    {
+      "dept": "055",
+      "ok": 4,
+      "failed": 0,
+      "total": 4
+    },
+    {
+      "dept": "056",
+      "ok": 13,
+      "failed": 0,
+      "total": 13
+    },
+    {
+      "dept": "057",
+      "ok": 13,
+      "failed": 0,
+      "total": 13
+    },
+    {
+      "dept": "058",
+      "ok": 2,
+      "failed": 0,
+      "total": 2
+    },
     {
       "dept": "059",
       "ok": 34,
       "failed": 0,
       "total": 34
+    },
+    {
+      "dept": "060",
+      "ok": 12,
+      "failed": 0,
+      "total": 12
+    },
+    {
+      "dept": "061",
+      "ok": 18,
+      "failed": 2,
+      "total": 20
+    },
+    {
+      "dept": "062",
+      "ok": 24,
+      "failed": 0,
+      "total": 24
+    },
+    {
+      "dept": "063",
+      "ok": 11,
+      "failed": 0,
+      "total": 11
+    },
+    {
+      "dept": "064",
+      "ok": 10,
+      "failed": 0,
+      "total": 10
+    },
+    {
+      "dept": "066",
+      "ok": 1,
+      "failed": 0,
+      "total": 1
+    },
+    {
+      "dept": "067",
+      "ok": 15,
+      "failed": 0,
+      "total": 15
+    },
+    {
+      "dept": "068",
+      "ok": 12,
+      "failed": 0,
+      "total": 12
+    },
+    {
+      "dept": "069",
+      "ok": 33,
+      "failed": 1,
+      "total": 34
+    },
+    {
+      "dept": "070",
+      "ok": 3,
+      "failed": 0,
+      "total": 3
+    },
+    {
+      "dept": "071",
+      "ok": 11,
+      "failed": 0,
+      "total": 11
+    },
+    {
+      "dept": "072",
+      "ok": 8,
+      "failed": 0,
+      "total": 8
+    },
+    {
+      "dept": "073",
+      "ok": 5,
+      "failed": 1,
+      "total": 6
+    },
+    {
+      "dept": "074",
+      "ok": 11,
+      "failed": 1,
+      "total": 12
+    },
+    {
+      "dept": "076",
+      "ok": 24,
+      "failed": 0,
+      "total": 24
+    },
+    {
+      "dept": "077",
+      "ok": 34,
+      "failed": 0,
+      "total": 34
+    },
+    {
+      "dept": "078",
+      "ok": 36,
+      "failed": 0,
+      "total": 36
+    },
+    {
+      "dept": "079",
+      "ok": 9,
+      "failed": 0,
+      "total": 9
+    },
+    {
+      "dept": "080",
+      "ok": 3,
+      "failed": 0,
+      "total": 3
+    },
+    {
+      "dept": "081",
+      "ok": 6,
+      "failed": 0,
+      "total": 6
+    },
+    {
+      "dept": "082",
+      "ok": 2,
+      "failed": 0,
+      "total": 2
+    },
+    {
+      "dept": "083",
+      "ok": 14,
+      "failed": 0,
+      "total": 14
+    },
+    {
+      "dept": "084",
+      "ok": 9,
+      "failed": 0,
+      "total": 9
+    },
+    {
+      "dept": "085",
+      "ok": 7,
+      "failed": 0,
+      "total": 7
+    },
+    {
+      "dept": "086",
+      "ok": 8,
+      "failed": 0,
+      "total": 8
+    },
+    {
+      "dept": "087",
+      "ok": 2,
+      "failed": 0,
+      "total": 2
+    },
+    {
+      "dept": "088",
+      "ok": 6,
+      "failed": 0,
+      "total": 6
+    },
+    {
+      "dept": "089",
+      "ok": 4,
+      "failed": 0,
+      "total": 4
+    },
+    {
+      "dept": "090",
+      "ok": 2,
+      "failed": 0,
+      "total": 2
+    },
+    {
+      "dept": "091",
+      "ok": 33,
+      "failed": 1,
+      "total": 34
+    },
+    {
+      "dept": "093",
+      "ok": 30,
+      "failed": 1,
+      "total": 31
+    },
+    {
+      "dept": "094",
+      "ok": 32,
+      "failed": 0,
+      "total": 32
+    },
+    {
+      "dept": "095",
+      "ok": 32,
+      "failed": 0,
+      "total": 32
+    },
+    {
+      "dept": "720",
+      "ok": 2,
+      "failed": 1,
+      "total": 3
+    },
+    {
+      "dept": "973",
+      "ok": 7,
+      "failed": 0,
+      "total": 7
+    },
+    {
+      "dept": "974",
+      "ok": 15,
+      "failed": 0,
+      "total": 15
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "dept": "984",
+      "error": "dossier inconnu"
+    }
+  ]
 }
