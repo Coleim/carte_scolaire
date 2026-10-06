@@ -41,6 +41,7 @@ const EXCLUDED_DEPT_CODES = new Set([
   "065", // Hautes-Pyrénées
   "075", // Paris (déjà découpé par arrondissement)
   "092", // Hauts-de-Seine
+  "022", // Côtes-d'Armor (source dédiée datarmor.cotesdarmor.fr)
 ]);
 
 const SIMPLIFY_TOLERANCE_DEG = 0.0003; // communes = formes simples, tolérance un peu plus large

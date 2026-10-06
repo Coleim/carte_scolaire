@@ -55,6 +55,10 @@ const SIMPLE_SOURCES = [
     url: "https://opendata.hauts-de-seine.fr/api/explore/v2.1/catalog/datasets/fr-229200506-carte-scolaire-colleges-publics-secteurs/exports/geojson",
   },
   {
+    id: "cotes-darmor-colleges",
+    url: "https://datarmor.cotesdarmor.fr/data-fair/api/v1/datasets/secteurs-complets/raw",
+  },
+  {
     id: "bordeaux-ecoles",
     url: "https://datahub.bordeaux-metropole.fr/api/explore/v2.1/catalog/datasets/se_ecole_s/exports/geojson",
   },

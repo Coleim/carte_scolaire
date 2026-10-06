@@ -1,0 +1,15 @@
+{
+  "name": "carte-scolaire-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Scripts de génération des données statiques (non utilisés au runtime par la page, qui est 100% statique).",
+  "scripts": {
+    "refresh-sources": "node scripts/refresh-sources.mjs",
+    "build-national-colleges": "node scripts/build-national-colleges.mjs",
+    "build-split-communes": "node scripts/build-split-communes.mjs"
+  },
+  "devDependencies": {
+    "@turf/turf": "^7.2.0",
+    "d3-delaunay": "^6.0.4"
+  }
+}

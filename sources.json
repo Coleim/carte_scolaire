@@ -12,6 +12,16 @@
       }
     },
     {
+      "id": "cotes-darmor-colleges",
+      "label": "Côtes-d'Armor",
+      "type": "static",
+      "url": "data/cotes-darmor-colleges.geojson",
+      "fields": {
+        "secteur": "nom_etablissement",
+        "etablissement": "nom_etablissement"
+      }
+    },
+    {
       "id": "isere-colleges",
       "label": "Isère",
       "type": "static",
